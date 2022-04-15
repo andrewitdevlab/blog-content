@@ -1,2 +1,2 @@
-# blog-content
-Scripts and content from the IT Dev Lab blog
+# itdevlab.au GitHub
+In this repository you will find scripts and other configuration files from the http://www.itdevlab.au blog.
