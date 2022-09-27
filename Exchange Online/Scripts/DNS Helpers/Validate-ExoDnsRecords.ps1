@@ -16,7 +16,7 @@
 	   
     .NOTES
 	      Author:  Andrew Silcock
-	      Version: 1.0
+	      Version: 1.1
           Created: 17-Aug-2022
           Updated: 17-Aug-2022
     .LINK
@@ -60,7 +60,7 @@ function Validate-MxRecord
             }
             default 
             { 
-                Write-Warning ("`tThe preference of the MX record is not 0 as expected.  A preference of '{0}' was found" -f $DomainMxRecords.Preference )
+                Write-Warning ("`tThe preference of the MX record is not 0 as expected.  A preference of '{0}' was found" -f $ExpectedMxRecords.Preference )
             }
 
         }
