@@ -50,7 +50,7 @@ param
 if (-not $BinaryFile)
 {
     [xml] $XmlPolicy = Get-Content $XmlPolicyFile
-    $BinaryFile = "{0}.bin" -f $XmlPolicy.SiPolicy.PolicyID
+    $BinaryFile = "{0}.cip" -f $XmlPolicy.SiPolicy.PolicyID
 }
 
 ConvertFrom-CIPolicy -XmlFilePath $XmlPolicyFile -BinaryFilePath $BinaryFile 
